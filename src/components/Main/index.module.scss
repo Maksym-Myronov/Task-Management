@@ -1,0 +1,107 @@
+.mainContainer {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    padding: 0px 0px 40px 0px;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.ulList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 120px;
+    margin-bottom: 31px;
+    cursor: pointer;
+}
+
+.verticalLine {
+    width: 1px; /* Ширина вертикальной линии */
+    height: 162%; /* Высота вертикальной линии */
+    background-color: #DFDBD8; /* Цвет линии */
+    margin-left: 50px;
+}
+
+.mainBlock {
+    display: flex;
+}
+
+.mainTop {
+    padding: 40px;
+}
+
+.upgradeBlock {
+    background: linear-gradient(237deg, #FCDEC6 19.39%, #E0C7C4 83.13%);    
+    width: 210px;
+    height: 235px;
+    margin-left: 40px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.upgradeText {
+    padding: 100px 0px 0px 0px;
+}
+
+.upgradeSubscribeText {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.upgradeButton {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+}
+
+.imagesCloud {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: -10px;
+    right: 110px;
+}
+
+.firstCloud {
+    margin-bottom: 40px;
+}
+
+.secondCloud {
+    margin-top: 40px;
+}
+
+.line {
+    width: 10%;
+    height: 1px;
+    background-color: #DFDBD8;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.logoutContainer {
+    display: flex;
+    gap: 15px;
+    padding: 40px 0px 0px 40px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.logoutImages {
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px 9px 10px 11px;
+    cursor: pointer;
+}
