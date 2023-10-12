@@ -1,7 +1,12 @@
 .mainContainer {
-    background-color: #F2F2F2;
+    // background-color: #F2F2F2;
     border-radius: 15px;
-    padding: 0px 0px 40px 0px;
+    background-color: #EBDFD7;
+}
+
+.leftBar {
+    background-color: black;
+    color: white;
 }
 
 .headerLogo {
@@ -20,12 +25,12 @@
     cursor: pointer;
 }
 
-.verticalLine {
-    width: 1px; /* Ширина вертикальной линии */
-    height: 162%; /* Высота вертикальной линии */
-    background-color: #DFDBD8; /* Цвет линии */
-    margin-left: 50px;
-}
+// .verticalLine {
+//     width: 1px; /* Ширина вертикальной линии */
+//     height: 162%; /* Высота вертикальной линии */
+//     background-color: #DFDBD8; /* Цвет линии */
+//     margin-left: 50px;
+// }
 
 .mainBlock {
     display: flex;
@@ -39,12 +44,12 @@
     background: linear-gradient(237deg, #FCDEC6 19.39%, #E0C7C4 83.13%);    
     width: 210px;
     height: 235px;
-    margin-left: 40px;
     border-radius: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 0px 20px 0px 40px;
 }
 
 .upgradeText {
@@ -83,7 +88,7 @@
 }
 
 .line {
-    width: 10%;
+    width: 50%;
     height: 1px;
     background-color: #DFDBD8;
     margin-top: 10px;
@@ -93,7 +98,7 @@
 .logoutContainer {
     display: flex;
     gap: 15px;
-    padding: 40px 0px 0px 40px;
+    padding: 40px 0px 40px 40px;
     align-items: center;
     font-weight: 600;
     font-size: 0.8rem;
@@ -104,4 +109,13 @@
     border-radius: 25px;
     padding: 10px 9px 10px 11px;
     cursor: pointer;
+}
+
+.otletComponents {
+    display: flex;
+}
+
+.categoryImage {
+    width: 21px;
+    height: 21px;
 }

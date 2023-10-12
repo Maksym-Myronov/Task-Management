@@ -1,0 +1,158 @@
+.mainDash {
+    display: flex;
+    padding: 30px 0px 40px 40px;
+    justify-content: space-between;
+    width: 900px;
+    align-items: center;
+}
+
+.nameDashboard {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.userImg {
+    width: 38px;
+    height: 36px;
+    border-radius: 25px;
+    padding: 4px;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.userPosition {
+    display: flex;
+    padding: 2px 20px 1px 1px;
+    align-items: center;
+    border-radius: 24px;
+    background-color: white;
+}
+
+.bellImage {
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 44px;
+    padding: 13px;
+}
+
+.infoAboutUser {
+    font-size: 0.8rem;
+    line-height: 17px;
+}
+
+.line {
+    width: 270%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.calendarImg {
+    padding: 0px;
+}
+
+.firstBlock {
+    position: relative;
+    margin: 0px 0px 0px 40px;
+    width: 870px;
+    height: 245px;
+    background: linear-gradient(88deg, #E9E6CE 3.83%, #97ADB1 87.25%);
+    border-radius: 25px;
+}
+
+.welcomText {
+    display: flex;
+}
+
+.infoText {
+    padding: 50px 0px 50px 50px;
+}
+
+.titleText {
+    margin: 10px 0px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.imagesDashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asdas {
+    position: absolute;
+    left: 500px;
+}
+
+.descriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+}
+
+.todayTask {
+    width: 500px;
+    margin: 40px 0px 0px 40px;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 25px;
+    padding: 20px 0px 20px 40px;
+}
+
+.lineTwo {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.08);
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.statusTask {
+    width: 400px;
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.statusImportant {
+    margin: 0px;
+    cursor: pointer;
+}
+
+.allText {
+    cursor: pointer;
+}
+
+.allTask {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+.checkboxesImg {
+    cursor: pointer;
+}
+
+.textTask {
+    font-size: 0.8rem;
+}
+
+.statusAll {
+    font-size: 0.6rem;
+    margin: 0px;
+    color: #1A932E;
+    background: rgba(26, 147, 46, 0.18);
+    border-radius: 20px;
+    padding: 5px 8px;
+}
+
+
+

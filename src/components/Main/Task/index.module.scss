@@ -1,0 +1,20 @@
+.taskContaienr {
+    margin: 40px 0px 0px 40px;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 25px;
+    width: 300px;
+    height: 150px;
+    padding: 40px 40px;
+}
+
+.imagesIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.numberTask {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
