@@ -12,7 +12,7 @@ import progress from '../../../assets/images/work-in-progress.png'
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className={styles.dashboardContent}>
             <div className={styles.mainDash}>
                 <div>
                     <h1 className={styles.nameDashboard}>Dashboard</h1>
@@ -69,12 +69,12 @@ const Dashboard = () => {
                 </div>
                 <div>
                     <Task 
-                        images={done}
+                        images={progress}
                         number="0"
                         description="Tasks In progress"
                     />
                     <Task 
-                        images={progress}
+                        images={done}
                         number="0"
                         description="Completed Tasks"
                     />

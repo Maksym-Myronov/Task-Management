@@ -58,9 +58,9 @@ html, body {
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    max-width: 1320px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0px;
     background-color: #CCC1BE;
 }
 
