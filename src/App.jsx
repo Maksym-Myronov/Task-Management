@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Main />}>
+        <Route path="Task-Management" element={<Main />}>
           <Route index element={<Dashboard />}/>
           <Route path="setting" element={<SettingsPage />} />
         </Route>
