@@ -1,3 +1,73 @@
-.name {
-    background-color: red;
+.settingsContainer {
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    width: 600px;
+    margin: 50px 300px 0px 300px;
+    height: 75%;
+    padding: 50px 0px;
+}
+
+.inputInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    align-items: center;
+}
+
+.formData {
+    // padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.imagesUser {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.inputBox {
+    background: transparent;
+    outline: none;
+    width: 300px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.genderBtn {
+    margin: 25px 0px;
+}
+
+.takeGenderBtn {
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 190px;
+}
+
+.saveInfo {
+    margin: 40px 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 450px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
