@@ -27,7 +27,7 @@ const Main = () => {
                                 <ul>
                                     <Link to='/Task-Management'><li className={styles.ulList}><img src={category} alt="category" className={styles.categoryImage}/>Dashboard</li></Link> 
                                     <Link to='project'><li className={styles.ulList}><img src={edit} alt="edit" />Project</li></Link>
-                                    <Link to='my Task'><li className={styles.ulList}><img src={char} alt="char" />My Task</li></Link>
+                                    <Link to='myTask'><li className={styles.ulList}><img src={char} alt="char" />My Task</li></Link>
                                     <Link to='calender'><li className={styles.ulList}><img src={calendar} alt="calendar" />Calender</li></Link>
                                     <Link to='emails'><li className={styles.ulList}><img src={email} alt="email" />Emails</li></Link>
                                     <Link to='setting'><li className={styles.ulList}><img src={settings} alt="settings" />Setting</li></Link>
