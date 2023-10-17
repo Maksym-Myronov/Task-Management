@@ -26,20 +26,14 @@
     width: 50vw;
     background: var(--Light-Orange, #F1ECE6);
     border-radius: 25px;
-    height: 200px;
+    height: 400px;
 }
 
 .todoMain {
-    display: flex;
-    align-items: center;
     padding: 40px 40px 0px 40px;
-}
-
-.lines {
-    width: auto;
-    height: 2px;
-    background-color: rgba(0, 0, 0, 0.08);
-    margin-top: 10px;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
 }
 
 .personalTodo {

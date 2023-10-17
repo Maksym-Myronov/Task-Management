@@ -1,0 +1,32 @@
+.bsCheck {
+    font-size: 24px;
+    color: grey;
+}
+
+.checkContainer {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: pink;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.checkedBlock {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.trashBtn {
+    cursor: pointer;
+}
+

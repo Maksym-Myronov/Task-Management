@@ -1,7 +1,33 @@
 import styles from './index.module.scss'
-import trash from '../../assets/images/icons8-trash-64.png'
+// import trash from '../../assets/images/icons8-trash-64.png'
+import { useState } from 'react'
+import Todoitem from '../Home/item/Todoitem'
+import CreateTodoField from '../Home/CreateTodoField'
 
 const MyTask = () => {
+
+    const data = [
+        {
+            _id: '',
+            title: '',
+            isCompleted: false
+        }
+    ]
+
+    const [todos, setTodos] = useState(data)
+
+    const changeTodo = id => {
+        const copy = [...todos]
+        const current = copy.find(t => t._id === id)
+        current.isCompleted = !current.isCompleted
+        setTodos(copy)
+    }
+
+    const removeTodo = id => {
+        setTodos([...todos].filter(t => t._id !== id))
+    }
+
+
     return (
         <div className={styles.myTaskContainer}>
             <div>
@@ -11,17 +37,23 @@ const MyTask = () => {
                 <hr className={styles.line}  />
             </div>
             <div>
-                <div className={styles.inputTodo}>
-                    <input type="text" placeholder='What do you need to do?' className={styles.todoAddInput} />
-                    <button className={styles.addButton}>Add</button>
-                </div>
+                <CreateTodoField 
+                    setTodos={setTodos}
+                />
                 <div className={styles.todoContainer}> 
-                    <div className={styles.todoMain}>
-                            <input type="checkbox" />
-                            <p className={styles.personalTodo}>Personal Work No. 2</p>
-                            <img src={trash} alt="trash" className={styles.todoTrash}/>
-                    </div>
-                    <hr className={styles.lines}  />
+                
+                <div className={styles.todoMain}>
+                    {todos.map(todo => (
+                    <Todoitem 
+                        key={todo._id} 
+                        todo={todo} 
+                        changeTodo={changeTodo} 
+                        removeTodo={removeTodo} 
+                    />
+                    ))}
+                </div>
+                    
+                    {/* <hr className={styles.lines}  /> */}
                 </div>
             </div>
         </div>
